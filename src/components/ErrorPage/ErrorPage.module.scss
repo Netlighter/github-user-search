@@ -1,0 +1,14 @@
+.parent{
+    @apply m-5 p-5 h-full text-center w-36 md:w-96;
+
+    .heading{
+        @apply md:text-2xl text-lg font-bold text-center text-white my-6;
+    }
+
+    p {
+        @apply text-white
+    }
+    .alert_text {
+        @apply text-red-600 font-bold
+    }
+}

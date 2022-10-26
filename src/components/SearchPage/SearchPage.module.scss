@@ -1,0 +1,17 @@
+.parent{
+    @apply m-5 p-5 h-full text-center w-36 md:w-96;
+
+    .heading{
+        @apply md:text-2xl text-lg font-bold text-center text-white my-6;
+    }
+
+    input{
+        @apply block w-full bg-white bg-opacity-10 md:p-3 p-1 rounded-md border-transparent outline-none focus:bg-opacity-20 focus:shadow-lg text-gray-100 transition-colors;
+    }
+
+    .search_btn{
+        @apply font-bold md:mt-8 mt-5 bg-cyan-400 block mx-auto md:px-8 px-3 md:py-2 md:rounded-xl rounded-md active:bg-cyan-300 hover:shadow-lg transition-colors ease-in-out;
+    }
+
+    
+}
